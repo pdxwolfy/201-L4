@@ -1,12 +1,11 @@
 body {
   background-color: #151515;
   color: #949494;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font: normal 100% "Helvetica", "Arial", sans-serif;
 }
 
 main {
   background-color: #333333;
-  box-sizing: content-box;
   color: inherit;
   margin: 0 auto;
   max-width: 1000px;
@@ -16,9 +15,11 @@ main {
 
 h1 {
   background-color: inherit;
+  box-sizing: border-box;
   color: #f0f0f0;
   font-weight: bold;
-  margin: 27px 0 22px 0;
+  margin: 26px 0 22px 0;
+  padding: 0;
   text-align: center;
 }
 
