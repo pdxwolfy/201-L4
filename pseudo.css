@@ -1,0 +1,165 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  color: #333333;
+  font: normal 18px Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  margin: 0 130px 0 160px;
+}
+
+header {
+  background-color: #2c3e50;
+  color: inherit;
+  box-sizing: border-box;
+  float: left;
+  font-size: 14px;
+  height: 100vh;
+  margin-left: -160px;
+  padding: 15px;
+  width: 160px;
+}
+
+h1 > a {
+  background-color: inherit;
+  color: #fff;
+}
+
+nav li {
+  padding-bottom: 10px;
+  margin: 1px 0 5px 0;
+}
+
+nav li a {
+  background-color: inherit;
+  color: #fff;
+  height: 26px;
+}
+
+nav li a:before {
+  background: transparent url("icons_nav.png") 0 0 no-repeat;
+  color: inherit;
+  content: "";
+  display: inline-block;
+  height: 26px;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 27px;
+}
+
+nav li .home:hover:before {
+  background-position: 100% 0;
+  height: 26px;
+}
+
+nav li .photos:before {
+  background-position: 0 -26px;
+  height: 20px;
+}
+
+nav li .photos:hover:before {
+  background-position: 100% -26px;
+  height: 20px;
+}
+
+nav li .contact:before {
+  background-position: 0 -46px;
+  height: 17px;
+}
+
+nav li .contact:hover:before {
+  background-position: 100% -46px;
+  height: 17px;
+}
+
+main {
+  box-sizing: border-box;
+  float: left;
+  padding: 25px;
+  width: 100%;
+}
+
+main p {
+  margin-top: 18px;
+}
+
+footer {
+  background-color: #e74c3c;
+  box-sizing: border-box;
+  color: inherit;
+  float: right;
+  font-size: 12px;
+  height: 100vh;
+  margin-right: -130px;
+  padding: 15px;
+  width: 130px;
+}
+
+footer li {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+footer a {
+  background-color: #ffffff;
+  box-sizing: inherit;
+  color: #2980b9;
+  display: block;
+  height: 34px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+footer li a:before {
+  background: transparent url("icons_social.png") 0 0 no-repeat;
+  background-size: 24px;
+  color: inherit;
+  content: "";
+  display: inline-block;
+  height: 24px;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 24px;;
+}
+
+footer li .facebook:before {
+  background-position: 0 -24px;
+}
+
+footer li .instagram:before {
+  background-position: 0 100%;
+}
+
+footer a:hover:before {
+  background-color: #00bf8f;
+  color: inherit;
+}

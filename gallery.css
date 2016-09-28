@@ -1,0 +1,62 @@
+body {
+  background-color: #151515;
+  color: #949494;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+main {
+  background-color: #333333;
+  box-sizing: content-box;
+  color: inherit;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  background-color: inherit;
+  color: #f0f0f0;
+  font-weight: bold;
+  margin: 27px 0 22px 0;
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  border: 15px solid #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+figcaption {
+  background-color: inherit;
+  color: #f0f0f0;
+  margin-top: 5px;
+}
+
+ul {
+  font-size: 0; /* Eliminate unwanted spaces between li elements */
+  list-style: none;
+  margin: 30px -15px 0 -15px;
+  padding: 0;
+}
+
+li {
+  box-sizing: border-box;
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 0 15px;
+  vertical-align: top;
+  width: 25%;
+}
+
+li img {
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+}

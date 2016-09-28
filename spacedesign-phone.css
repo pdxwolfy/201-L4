@@ -1,0 +1,183 @@
+@media (max-width: 480px) {
+
+  /****************************************************************************
+  ** Common elements
+  */
+
+  body div {
+    max-width: 480px;
+  }
+
+  h1 {
+    float: left;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin-top: 61px;
+  }
+
+  h2::before,
+  h2::after {
+    padding-bottom: 3px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 13px 0 24px 0;
+  }
+
+  p {
+    padding: 0 20px;
+  }
+
+  /****************************************************************************
+  ** Header and Navigation elements
+  */
+
+  header {
+    display: block;
+    margin: 0;
+    padding: 3px 0 0 0;
+    text-align: left;
+  }
+
+  header::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  h1 a {
+    background: transparent url("images/logo.png") 0 20px no-repeat;
+    background-size: 90px auto;
+    box-sizing: inherit;
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    height: 70px;
+    padding: 30px 0 0 75px;
+    text-indent: 0;
+    width: auto;
+  }
+
+  nav {
+    float: right;
+    margin: 13px 2px 0 2px;
+    padding-bottom: 0;
+    text-align: right;
+  }
+
+  nav li {
+    display: block;
+    padding-bottom: 5px;
+    margin-right: 18px;
+    text-align: right;
+  }
+
+  nav a {
+    background-color: inherit;
+    color: #cacaca;
+    font-size: 16px;
+  }
+
+  nav .active a {
+    background-color: inherit;
+    color: #6db9ff;
+  }
+
+  /****************************************************************************
+  ** Main content area
+  */
+
+  main {
+    font-size: 16px;
+    margin-top: 14px;
+    padding-bottom: 0;
+    padding-top: 1px;
+  }
+
+  /****************************************************************************
+  ** Footer area
+  */
+
+  footer {
+    font-size: 16px;
+    padding: 36px 0 26px 0;
+  }
+
+  footer li {
+    margin: 56px 18px 0 18px;
+  }
+
+  /****************************************************************************
+  ** Home page
+  */
+
+  .main article {
+    margin-top: 18px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+
+  .main article:last-of-type {
+    padding-bottom: 69px;
+  }
+
+  /****************************************************************************
+  ** Projects page
+  */
+
+  .projects {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .projects figure,
+  .projects p {
+    padding: 0 10px;
+  }
+
+  .projects article:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+
+  /****************************************************************************
+  ** Team page
+  */
+
+  .team article {
+    margin-bottom: 0;
+    margin-top: 18px;
+    padding-bottom: 30px;
+  }
+
+  .team article:last-of-type {
+    padding-bottom: 1px;
+  }
+
+  .team article p {
+    padding: 0 10px;
+  }
+
+  .team ul {
+    font-size: 0;
+    line-height: 5px;
+    margin-top: 50px;
+  }
+
+  .team li {
+    margin: 0 30px;
+    padding: 0;
+  }
+
+  .team img {
+    margin-bottom: 11px;
+  }
+
+  .team div {
+    margin-top: 0;
+  }
+}

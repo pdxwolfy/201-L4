@@ -1,0 +1,35 @@
+@media (max-width: 875px) {
+
+/****************************************************************************
+  ** Team page
+  */
+
+  .team {
+    max-width: 875px;
+  }
+
+  .team p {
+    padding: 0 90px;
+  }
+
+  .team ul {
+    font-size: 0;
+    padding: 0;
+  }
+
+  .team li {
+    display: inline-block;
+    line-height: 5px;
+    margin: 0 0 44px 0;
+    text-align: center;
+    width: 50%;
+  }
+
+  .team li:nth-of-type(odd) {
+    padding-right: 10px;
+  }
+
+  .team li:nth-of-type(even) {
+    padding-left: 9px;
+  }
+}

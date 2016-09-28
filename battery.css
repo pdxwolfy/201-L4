@@ -1,0 +1,17 @@
+.battery {
+  width: 64px;
+  height: 124px;
+  background: transparent url("battery_indicator.png") 0 0 no-repeat;
+}
+
+.moderate {
+  background-position: 0 -124px;
+}
+
+.low {
+  background-position: 0 -248px;
+}
+
+.empty {
+  background-position: 0 100%;
+}
